@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 88262cdddd3e06c48adf3bab66d196b2
+timeCreated: 1442902953
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Chest
+    100004: Head
+    100006: Hips
+    100008: L_Ankle
+    100010: L_Ball_Foot
+    100012: L_Clavicule
+    100014: L_Elbow
+    100016: L_Foot_Finger
+    100018: L_Hand
+    100020: L_Hand_End
+    100022: L_Knee
+    100024: L_Leg
+    100026: L_Shoulder
+    100028: L_Thumb
+    100030: L_Thumb_End
+    100032: L_Wrist
+    100034: Mesh_Bat
+    100036: Mesh_BennyB_Character
+    100038: Neck
+    100040: R_Ankle
+    100042: R_Ball_Foot
+    100044: R_Clavicule
+    100046: R_Elbow
+    100048: R_Foot_Finger
+    100050: R_Hand
+    100052: R_Hand_End
+    100054: R_Knee
+    100056: R_Leg
+    100058: R_Shoulder
+    100060: R_Thumb
+    100062: R_Thumb_End
+    100064: R_Wrist
+    100066: Root
+    100068: Spine
+    400000: //RootNode
+    400002: Chest
+    400004: Head
+    400006: Hips
+    400008: L_Ankle
+    400010: L_Ball_Foot
+    400012: L_Clavicule
+    400014: L_Elbow
+    400016: L_Foot_Finger
+    400018: L_Hand
+    400020: L_Hand_End
+    400022: L_Knee
+    400024: L_Leg
+    400026: L_Shoulder
+    400028: L_Thumb
+    400030: L_Thumb_End
+    400032: L_Wrist
+    400034: Mesh_Bat
+    400036: Mesh_BennyB_Character
+    400038: Neck
+    400040: R_Ankle
+    400042: R_Ball_Foot
+    400044: R_Clavicule
+    400046: R_Elbow
+    400048: R_Foot_Finger
+    400050: R_Hand
+    400052: R_Hand_End
+    400054: R_Knee
+    400056: R_Leg
+    400058: R_Shoulder
+    400060: R_Thumb
+    400062: R_Thumb_End
+    400064: R_Wrist
+    400066: Root
+    400068: Spine
+    2300000: Mesh_Bat
+    3300000: Mesh_Bat
+    4300000: Mesh_Bat
+    4300002: Mesh_BennyB_Character
+    7400000: Swing
+    9500000: //RootNode
+    13700000: Mesh_BennyB_Character
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Swing
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_BennyB_Character
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Hips
+        weight: 1
+      - path: Root/Hips/L_Leg
+        weight: 1
+      - path: Root/Hips/L_Leg/L_Knee
+        weight: 1
+      - path: Root/Hips/L_Leg/L_Knee/L_Ankle
+        weight: 1
+      - path: Root/Hips/L_Leg/L_Knee/L_Ankle/L_Ball_Foot
+        weight: 1
+      - path: Root/Hips/L_Leg/L_Knee/L_Ankle/L_Ball_Foot/L_Foot_Finger
+        weight: 1
+      - path: Root/Hips/R_Leg
+        weight: 1
+      - path: Root/Hips/R_Leg/R_Knee
+        weight: 1
+      - path: Root/Hips/R_Leg/R_Knee/R_Ankle
+        weight: 1
+      - path: Root/Hips/R_Leg/R_Knee/R_Ankle/R_Ball_Foot
+        weight: 1
+      - path: Root/Hips/R_Leg/R_Knee/R_Ankle/R_Ball_Foot/R_Foot_Finger
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/Chest
+        weight: 1
+      - path: Root/Spine/Chest/L_Clavicule
+        weight: 1
+      - path: Root/Spine/Chest/L_Clavicule/L_Shoulder
+        weight: 1
+      - path: Root/Spine/Chest/L_Clavicule/L_Shoulder/L_Elbow
+        weight: 1
+      - path: Root/Spine/Chest/L_Clavicule/L_Shoulder/L_Elbow/L_Wrist
+        weight: 1
+      - path: Root/Spine/Chest/L_Clavicule/L_Shoulder/L_Elbow/L_Wrist/L_Hand
+        weight: 1
+      - path: Root/Spine/Chest/L_Clavicule/L_Shoulder/L_Elbow/L_Wrist/L_Hand/L_Hand_End
+        weight: 1
+      - path: Root/Spine/Chest/L_Clavicule/L_Shoulder/L_Elbow/L_Wrist/L_Thumb
+        weight: 1
+      - path: Root/Spine/Chest/L_Clavicule/L_Shoulder/L_Elbow/L_Wrist/L_Thumb/L_Thumb_End
+        weight: 1
+      - path: Root/Spine/Chest/Neck
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Root/Spine/Chest/R_Clavicule
+        weight: 1
+      - path: Root/Spine/Chest/R_Clavicule/R_Shoulder
+        weight: 1
+      - path: Root/Spine/Chest/R_Clavicule/R_Shoulder/R_Elbow
+        weight: 1
+      - path: Root/Spine/Chest/R_Clavicule/R_Shoulder/R_Elbow/R_Wrist
+        weight: 1
+      - path: Root/Spine/Chest/R_Clavicule/R_Shoulder/R_Elbow/R_Wrist/Mesh_Bat
+        weight: 1
+      - path: Root/Spine/Chest/R_Clavicule/R_Shoulder/R_Elbow/R_Wrist/R_Hand
+        weight: 1
+      - path: Root/Spine/Chest/R_Clavicule/R_Shoulder/R_Elbow/R_Wrist/R_Hand/R_Hand_End
+        weight: 1
+      - path: Root/Spine/Chest/R_Clavicule/R_Shoulder/R_Elbow/R_Wrist/R_Thumb
+        weight: 1
+      - path: Root/Spine/Chest/R_Clavicule/R_Shoulder/R_Elbow/R_Wrist/R_Thumb/R_Thumb_End
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

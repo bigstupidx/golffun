@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 89ac29642f84dac438cd1dad7252cbd3
+timeCreated: 1448865572
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Cylinder005
+    100002: //RootNode
+    100004: Mesh_Preem_Shirt002
+    100006: Mesh_Preem_Shirt003
+    100008: Mesh_Preem_Shirt004
+    100010: Mesh_Preem_Shirt005
+    100012: Mesh_Preem_Shirt006
+    100014: Mesh_Preem_Shirt007
+    100016: Mesh_Preem_Shirt008
+    100018: Mesh_Preem_Shirt009
+    100020: Mesh_Preem_Shirt010
+    100022: Mesh_Preem_Shirt011
+    100024: Mesh_Preem_Shirt012
+    100026: Mesh_Preem_Shirt1
+    100028: w
+    400000: Cylinder005
+    400002: //RootNode
+    400004: Mesh_Preem_Shirt002
+    400006: Mesh_Preem_Shirt003
+    400008: Mesh_Preem_Shirt004
+    400010: Mesh_Preem_Shirt005
+    400012: Mesh_Preem_Shirt006
+    400014: Mesh_Preem_Shirt007
+    400016: Mesh_Preem_Shirt008
+    400018: Mesh_Preem_Shirt009
+    400020: Mesh_Preem_Shirt010
+    400022: Mesh_Preem_Shirt011
+    400024: Mesh_Preem_Shirt012
+    400026: Mesh_Preem_Shirt1
+    400028: w
+    2300000: Cylinder005
+    2300002: Mesh_Preem_Shirt002
+    2300004: Mesh_Preem_Shirt003
+    2300006: Mesh_Preem_Shirt004
+    2300008: Mesh_Preem_Shirt005
+    2300010: Mesh_Preem_Shirt006
+    2300012: Mesh_Preem_Shirt007
+    2300014: Mesh_Preem_Shirt008
+    2300016: Mesh_Preem_Shirt009
+    2300018: Mesh_Preem_Shirt010
+    2300020: Mesh_Preem_Shirt011
+    2300022: Mesh_Preem_Shirt012
+    2300024: Mesh_Preem_Shirt1
+    2300026: w
+    3300000: Cylinder005
+    3300002: Mesh_Preem_Shirt002
+    3300004: Mesh_Preem_Shirt003
+    3300006: Mesh_Preem_Shirt004
+    3300008: Mesh_Preem_Shirt005
+    3300010: Mesh_Preem_Shirt006
+    3300012: Mesh_Preem_Shirt007
+    3300014: Mesh_Preem_Shirt008
+    3300016: Mesh_Preem_Shirt009
+    3300018: Mesh_Preem_Shirt010
+    3300020: Mesh_Preem_Shirt011
+    3300022: Mesh_Preem_Shirt012
+    3300024: Mesh_Preem_Shirt1
+    3300026: w
+    4300000: Mesh_Preem_Shirt1
+    4300002: Cylinder005
+    4300004: Mesh_Preem_Shirt002
+    4300006: Mesh_Preem_Shirt003
+    4300008: Mesh_Preem_Shirt004
+    4300010: Mesh_Preem_Shirt005
+    4300012: Mesh_Preem_Shirt006
+    4300014: Mesh_Preem_Shirt007
+    4300016: Mesh_Preem_Shirt008
+    4300018: Mesh_Preem_Shirt009
+    4300020: Mesh_Preem_Shirt010
+    4300022: Mesh_Preem_Shirt011
+    4300024: Mesh_Preem_Shirt012
+    4300026: w
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

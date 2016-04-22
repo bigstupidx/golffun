@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: 2da0aad9792ab50478c642cced76a783
+timeCreated: 1450257262
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Benny Bond_pant
+    100002: Benny Bond_shoes
+    100004: //RootNode
+    100006: Preem_pant
+    100008: Preem_shoe
+    100010: Savy_pant
+    100012: Savy_pant 1
+    100014: Taz_Shoes
+    100016: Taz_short
+    400000: Benny Bond_pant
+    400002: Benny Bond_shoes
+    400004: //RootNode
+    400006: Preem_pant
+    400008: Preem_shoe
+    400010: Savy_pant
+    400012: Savy_pant 1
+    400014: Taz_Shoes
+    400016: Taz_short
+    2300000: Benny Bond_pant
+    2300002: Benny Bond_shoes
+    2300004: Preem_pant
+    2300006: Preem_shoe
+    2300008: Savy_pant
+    2300010: Savy_pant 1
+    2300012: Taz_Shoes
+    2300014: Taz_short
+    3300000: Benny Bond_pant
+    3300002: Benny Bond_shoes
+    3300004: Preem_pant
+    3300006: Preem_shoe
+    3300008: Savy_pant
+    3300010: Savy_pant 1
+    3300012: Taz_Shoes
+    3300014: Taz_short
+    4300000: Taz_short
+    4300002: Preem_pant
+    4300004: Preem_shoe
+    4300006: Benny Bond_shoes
+    4300008: Benny Bond_pant
+    4300010: Savy_pant
+    4300012: Savy_pant
+    4300014: Taz_Shoes
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

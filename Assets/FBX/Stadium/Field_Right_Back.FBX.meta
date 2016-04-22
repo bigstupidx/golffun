@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: d159749c1a35bad479e47cb7942afd04
+timeCreated: 1428607367
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Center Wall
+    100002: //RootNode
+    100004: Line002
+    100006: Mesh_Crowd_Back_Center
+    100008: Mesh_Crowd_Right_Back
+    100010: Mesh_Gate_Back_Center_01
+    100012: Mesh_GateWire_Back_Center_01
+    100014: Mesh_Rail_Back_Right_01
+    100016: Mesh_Rail_Center
+    100018: Mesh_Stairs_Back_Right_01
+    100020: Mesh_Stairs_Center
+    100022: 'Mesh_Stopped bleachers '
+    100024: Mesh_WallBleachers_Back_Center_01
+    100026: Mesh_WallBleachers_Back_Right_01
+    100028: Mesh_WhiteWallBleachers_Back_Right_01
+    100030: metallic grating front
+    400000: Center Wall
+    400002: //RootNode
+    400004: Line002
+    400006: Mesh_Crowd_Back_Center
+    400008: Mesh_Crowd_Right_Back
+    400010: Mesh_Gate_Back_Center_01
+    400012: Mesh_GateWire_Back_Center_01
+    400014: Mesh_Rail_Back_Right_01
+    400016: Mesh_Rail_Center
+    400018: Mesh_Stairs_Back_Right_01
+    400020: Mesh_Stairs_Center
+    400022: 'Mesh_Stopped bleachers '
+    400024: Mesh_WallBleachers_Back_Center_01
+    400026: Mesh_WallBleachers_Back_Right_01
+    400028: Mesh_WhiteWallBleachers_Back_Right_01
+    400030: metallic grating front
+    2300000: Center Wall
+    2300002: Line002
+    2300004: Mesh_Crowd_Back_Center
+    2300006: Mesh_Crowd_Right_Back
+    2300008: Mesh_Gate_Back_Center_01
+    2300010: Mesh_GateWire_Back_Center_01
+    2300012: Mesh_Rail_Back_Right_01
+    2300014: Mesh_Rail_Center
+    2300016: Mesh_Stairs_Back_Right_01
+    2300018: Mesh_Stairs_Center
+    2300020: 'Mesh_Stopped bleachers '
+    2300022: Mesh_WallBleachers_Back_Center_01
+    2300024: Mesh_WallBleachers_Back_Right_01
+    2300026: Mesh_WhiteWallBleachers_Back_Right_01
+    2300028: metallic grating front
+    3300000: Center Wall
+    3300002: Line002
+    3300004: Mesh_Crowd_Back_Center
+    3300006: Mesh_Crowd_Right_Back
+    3300008: Mesh_Gate_Back_Center_01
+    3300010: Mesh_GateWire_Back_Center_01
+    3300012: Mesh_Rail_Back_Right_01
+    3300014: Mesh_Rail_Center
+    3300016: Mesh_Stairs_Back_Right_01
+    3300018: Mesh_Stairs_Center
+    3300020: 'Mesh_Stopped bleachers '
+    3300022: Mesh_WallBleachers_Back_Center_01
+    3300024: Mesh_WallBleachers_Back_Right_01
+    3300026: Mesh_WhiteWallBleachers_Back_Right_01
+    3300028: metallic grating front
+    4300000: 'Mesh_Stopped bleachers '
+    4300002: Mesh_Crowd_Right_Back
+    4300004: Center Wall
+    4300006: Mesh_Rail_Back_Right_01
+    4300008: Mesh_Rail_Center
+    4300010: metallic grating front
+    4300012: Line002
+    4300014: Mesh_Stairs_Back_Right_01
+    4300016: Mesh_GateWire_Back_Center_01
+    4300018: Mesh_WallBleachers_Back_Right_01
+    4300020: Mesh_WhiteWallBleachers_Back_Right_01
+    4300022: Mesh_WallBleachers_Back_Center_01
+    4300024: Mesh_Crowd_Back_Center
+    4300026: Mesh_Gate_Back_Center_01
+    4300028: Mesh_Stairs_Center
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

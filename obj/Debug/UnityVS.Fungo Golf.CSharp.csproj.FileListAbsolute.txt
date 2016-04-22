@@ -1,0 +1,11 @@
+D:\Documents\Unity 5 Projects\Fungo Golf\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+D:\Documents\Unity 5 Projects\Fungo Golf\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+D:\Documents\Unity 5 Projects\Fungo Golf\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\Documents\Unity 5 Projects\Fungo Golf\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\Documents\Unity 5 Projects\Fungo Golf\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\Documents\Unity 5 Projects\Fungo Golf\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\Documents\Unity 5 Projects\Fungo Golf\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\Documents\Unity 5 Projects\Fungo Golf\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+D:\Documents\Unity 5 Projects\Fungo Golf\obj\Debug\UnityVS.Fungo Golf.CSharp.csprojResolveAssemblyReference.cache
+D:\Documents\Unity 5 Projects\Fungo Golf\obj\Debug\Assembly-CSharp.dll
+D:\Documents\Unity 5 Projects\Fungo Golf\obj\Debug\Assembly-CSharp.pdb

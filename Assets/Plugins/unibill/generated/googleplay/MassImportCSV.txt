@@ -1,0 +1,5 @@
+Product ID,Published State,Purchase Type,Auto Translate,Locale; Title; Description,Auto Fill Prices,Price
+com.jiggygames.fungogolf.100coins,published,managed_by_android,false,"en_US;100 Coins;100 coins for 0.99 US Dollars.",true,1000000
+com.jiggygames.fungogolf.1000coins,published,managed_by_android,false,";1000 Coins;1000 coins for 1.99 US Dollars.",true,0
+com.jiggygames.fungogolf.10000coins,published,managed_by_android,false,";10000 Coins;10000 coins for 4.99 US Dollars.",true,0
+com.jiggygames.fungogolf.50000coins,published,managed_by_android,false,";50000 Coins;50000 coins for 9.99 US Dollars.",true,0

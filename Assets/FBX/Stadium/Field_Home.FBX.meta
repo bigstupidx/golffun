@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 292816c7117a3a04188e268b7ec555cc
+timeCreated: 1428607361
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Dogout001
+    100002: //RootNode
+    100004: M_Dugout_Right
+    100006: Mesh_Crowd_Home_01
+    100008: Mesh_Crowd_Home_02
+    100010: Mesh_Gate_Dugout_01
+    100012: Mesh_Gate_Dugout_02
+    100014: Mesh_GateWire_Dugout_01
+    100016: Mesh_GateWire_Dugout_02
+    100018: Mesh_Home_Wire
+    100020: Mesh_Home_Wire_Tubes
+    100022: Mesh_Rail_A_Home_01
+    100024: Mesh_Rail_A_Home_02
+    100026: Mesh_Rail_B_Home_01
+    100028: Mesh_Rail_B_Home_02
+    100030: Mesh_Stairs_Home_01
+    100032: Mesh_Stairs_Home_02
+    100034: Mesh_WallBleachers_Cave_003
+    100036: Mesh_WallBleachers_Cave_01
+    100038: Mesh_WallBleachers_Cave_02
+    100040: Mesh_WhiteWallBleachers_Cave_01
+    100042: Mesh_WhiteWallBleachers_Dugout_Right
+    100044: Object039
+    400000: Dogout001
+    400002: //RootNode
+    400004: M_Dugout_Right
+    400006: Mesh_Crowd_Home_01
+    400008: Mesh_Crowd_Home_02
+    400010: Mesh_Gate_Dugout_01
+    400012: Mesh_Gate_Dugout_02
+    400014: Mesh_GateWire_Dugout_01
+    400016: Mesh_GateWire_Dugout_02
+    400018: Mesh_Home_Wire
+    400020: Mesh_Home_Wire_Tubes
+    400022: Mesh_Rail_A_Home_01
+    400024: Mesh_Rail_A_Home_02
+    400026: Mesh_Rail_B_Home_01
+    400028: Mesh_Rail_B_Home_02
+    400030: Mesh_Stairs_Home_01
+    400032: Mesh_Stairs_Home_02
+    400034: Mesh_WallBleachers_Cave_003
+    400036: Mesh_WallBleachers_Cave_01
+    400038: Mesh_WallBleachers_Cave_02
+    400040: Mesh_WhiteWallBleachers_Cave_01
+    400042: Mesh_WhiteWallBleachers_Dugout_Right
+    400044: Object039
+    2300000: Dogout001
+    2300002: M_Dugout_Right
+    2300004: Mesh_Crowd_Home_01
+    2300006: Mesh_Crowd_Home_02
+    2300008: Mesh_Gate_Dugout_01
+    2300010: Mesh_Gate_Dugout_02
+    2300012: Mesh_GateWire_Dugout_01
+    2300014: Mesh_GateWire_Dugout_02
+    2300016: Mesh_Home_Wire
+    2300018: Mesh_Home_Wire_Tubes
+    2300020: Mesh_Rail_A_Home_01
+    2300022: Mesh_Rail_A_Home_02
+    2300024: Mesh_Rail_B_Home_01
+    2300026: Mesh_Rail_B_Home_02
+    2300028: Mesh_Stairs_Home_01
+    2300030: Mesh_Stairs_Home_02
+    2300032: Mesh_WallBleachers_Cave_003
+    2300034: Mesh_WallBleachers_Cave_01
+    2300036: Mesh_WallBleachers_Cave_02
+    2300038: Mesh_WhiteWallBleachers_Cave_01
+    2300040: Mesh_WhiteWallBleachers_Dugout_Right
+    3300000: Dogout001
+    3300002: M_Dugout_Right
+    3300004: Mesh_Crowd_Home_01
+    3300006: Mesh_Crowd_Home_02
+    3300008: Mesh_Gate_Dugout_01
+    3300010: Mesh_Gate_Dugout_02
+    3300012: Mesh_GateWire_Dugout_01
+    3300014: Mesh_GateWire_Dugout_02
+    3300016: Mesh_Home_Wire
+    3300018: Mesh_Home_Wire_Tubes
+    3300020: Mesh_Rail_A_Home_01
+    3300022: Mesh_Rail_A_Home_02
+    3300024: Mesh_Rail_B_Home_01
+    3300026: Mesh_Rail_B_Home_02
+    3300028: Mesh_Stairs_Home_01
+    3300030: Mesh_Stairs_Home_02
+    3300032: Mesh_WallBleachers_Cave_003
+    3300034: Mesh_WallBleachers_Cave_01
+    3300036: Mesh_WallBleachers_Cave_02
+    3300038: Mesh_WhiteWallBleachers_Cave_01
+    3300040: Mesh_WhiteWallBleachers_Dugout_Right
+    4300000: Dogout001
+    4300002: Mesh_Crowd_Home_01
+    4300004: Mesh_Stairs_Home_01
+    4300006: Mesh_GateWire_Dugout_01
+    4300008: Mesh_Rail_B_Home_01
+    4300010: Mesh_Rail_A_Home_02
+    4300012: Mesh_Stairs_Home_02
+    4300014: Mesh_Crowd_Home_02
+    4300016: Mesh_Rail_A_Home_01
+    4300018: Mesh_Rail_B_Home_02
+    4300020: Mesh_GateWire_Dugout_02
+    4300022: Mesh_Home_Wire
+    4300024: Mesh_WallBleachers_Cave_01
+    4300026: Mesh_WallBleachers_Cave_02
+    4300028: Mesh_WhiteWallBleachers_Cave_01
+    4300030: M_Dugout_Right
+    4300032: Mesh_WhiteWallBleachers_Dugout_Right
+    4300034: Mesh_WallBleachers_Cave_003
+    4300036: Mesh_Gate_Dugout_01
+    4300038: Mesh_Gate_Dugout_02
+    4300040: Mesh_Home_Wire_Tubes
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

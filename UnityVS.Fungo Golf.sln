@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Fungo Golf.CSharp", "UnityVS.Fungo Golf.CSharp.csproj", "{BD3DFD1C-F4F6-7F8A-5B47-4317FC2A0120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Fungo Golf.CSharp.Editor", "UnityVS.Fungo Golf.CSharp.Editor.csproj", "{00CE9383-EEB0-AF11-04AF-220284A85FFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Fungo Golf.CSharp.Editor.Plugins", "UnityVS.Fungo Golf.CSharp.Editor.Plugins.csproj", "{D0B23EB3-5F56-B3C8-D8EA-B23CA657EB9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Fungo Golf.CSharp.Plugins", "UnityVS.Fungo Golf.CSharp.Plugins.csproj", "{47EBA51B-6D0E-211B-B726-DCBC740F7BBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD3DFD1C-F4F6-7F8A-5B47-4317FC2A0120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3DFD1C-F4F6-7F8A-5B47-4317FC2A0120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3DFD1C-F4F6-7F8A-5B47-4317FC2A0120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3DFD1C-F4F6-7F8A-5B47-4317FC2A0120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00CE9383-EEB0-AF11-04AF-220284A85FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CE9383-EEB0-AF11-04AF-220284A85FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CE9383-EEB0-AF11-04AF-220284A85FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CE9383-EEB0-AF11-04AF-220284A85FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B23EB3-5F56-B3C8-D8EA-B23CA657EB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B23EB3-5F56-B3C8-D8EA-B23CA657EB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B23EB3-5F56-B3C8-D8EA-B23CA657EB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B23EB3-5F56-B3C8-D8EA-B23CA657EB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47EBA51B-6D0E-211B-B726-DCBC740F7BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EBA51B-6D0E-211B-B726-DCBC740F7BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EBA51B-6D0E-211B-B726-DCBC740F7BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EBA51B-6D0E-211B-B726-DCBC740F7BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

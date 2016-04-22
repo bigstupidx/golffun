@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 285c93670be0e57469bd00d06f3cf741
+timeCreated: 1456923196
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: CATRigHead
+    100002: CATRigHips
+    100004: CATRigHipsBone001
+    100006: CATRigHipsBone001Bone001
+    100008: CATRigHipsBone001Bone001 1
+    100010: CATRigHipsBone002
+    100012: CATRigLLeg1
+    100014: CATRigLLeg2
+    100016: CATRigLLegAnkle
+    100018: CATRigLLegPlatform
+    100020: CATRigRLeg1
+    100022: CATRigRLeg2
+    100024: CATRigRLegAnkle
+    100026: CATRigRLegPlatform
+    100028: CATRigSpine1
+    100030: CATRigSpine2
+    100032: CATRigSpine3
+    100034: CATRigTail1
+    100036: CATRigTail2
+    100038: Mesh_Bird
+    100040: //RootNode
+    400000: CATRigHead
+    400002: CATRigHips
+    400004: CATRigHipsBone001
+    400006: CATRigHipsBone001Bone001
+    400008: CATRigHipsBone001Bone001 1
+    400010: CATRigHipsBone002
+    400012: CATRigLLeg1
+    400014: CATRigLLeg2
+    400016: CATRigLLegAnkle
+    400018: CATRigLLegPlatform
+    400020: CATRigRLeg1
+    400022: CATRigRLeg2
+    400024: CATRigRLegAnkle
+    400026: CATRigRLegPlatform
+    400028: CATRigSpine1
+    400030: CATRigSpine2
+    400032: CATRigSpine3
+    400034: CATRigTail1
+    400036: CATRigTail2
+    400038: Mesh_Bird
+    400040: //RootNode
+    4300000: Mesh_Bird
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Mesh_Bird
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CATRigHips
+        weight: 1
+      - path: CATRigHips/CATRigHipsBone001
+        weight: 1
+      - path: CATRigHips/CATRigHipsBone001/CATRigHipsBone001Bone001
+        weight: 1
+      - path: CATRigHips/CATRigHipsBone002
+        weight: 1
+      - path: CATRigHips/CATRigHipsBone002/CATRigHipsBone001Bone001 1
+        weight: 1
+      - path: CATRigHips/CATRigLLeg1
+        weight: 1
+      - path: CATRigHips/CATRigLLeg1/CATRigLLeg2
+        weight: 1
+      - path: CATRigHips/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle
+        weight: 1
+      - path: CATRigHips/CATRigRLeg1
+        weight: 1
+      - path: CATRigHips/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: CATRigHips/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle
+        weight: 1
+      - path: CATRigHips/CATRigSpine1
+        weight: 1
+      - path: CATRigHips/CATRigSpine1/CATRigSpine2
+        weight: 1
+      - path: CATRigHips/CATRigSpine1/CATRigSpine2/CATRigSpine3
+        weight: 1
+      - path: CATRigHips/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHead
+        weight: 1
+      - path: CATRigHips/CATRigTail1
+        weight: 1
+      - path: CATRigHips/CATRigTail1/CATRigTail2
+        weight: 1
+      - path: CATRigLLegPlatform
+        weight: 1
+      - path: CATRigRLegPlatform
+        weight: 1
+      - path: Mesh_Bird
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

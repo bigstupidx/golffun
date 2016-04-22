@@ -1,0 +1,5 @@
+SKU	Product ID	Reference Name	Type	Cleared For Sale	Wholesale Price Tier	Displayed Name	Description	Screenshot Path
+102	com.jiggygames.fungogolf.100coins	100 Coins	Consumable	yes		100 Coins	100 coins for 0.99 US Dollars.	
+102	com.jiggygames.fungogolf.1000coins	1000 Coins	Consumable	yes		1000 Coins	1000 coins for 1.99 US Dollars.	
+102	com.jiggygames.fungogolf.10000coins	10000 Coins	Consumable	yes		10000 Coins	10000 coins for 4.99 US Dollars.	
+102	com.jiggygames.fungogolf.50000coins	50000 Coins	Consumable	yes		50000 Coins	50000 coins for 9.99 US Dollars.	

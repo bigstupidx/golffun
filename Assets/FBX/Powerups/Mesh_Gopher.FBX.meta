@@ -1,0 +1,118 @@
+fileFormatVersion: 2
+guid: 209df4950fee37749acae64824bc43ce
+timeCreated: 1450348949
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Gopher_Chest
+    100002: Gopher_Head
+    100004: Gopher_Hips
+    100006: Gopher_LArm1
+    100008: Gopher_LArm2
+    100010: Gopher_LArmCollarbone
+    100012: Gopher_LArmPalm
+    100014: Gopher_LLeg1
+    100016: Gopher_LLeg2
+    100018: Gopher_LLegAnkle
+    100020: Gopher_RArm1
+    100022: Gopher_RArm2
+    100024: Gopher_RArmCollarbone
+    100026: Gopher_RArmPalm
+    100028: Gopher_RLeg1
+    100030: Gopher_RLeg2
+    100032: Gopher_RLegAnkle
+    100034: Gopher_Spine
+    100036: Gopher_Spine 1
+    100038: Gopher_Tail1
+    100040: //RootNode
+    100042: Mesh_Gopher
+    400000: Gopher_Chest
+    400002: Gopher_Head
+    400004: Gopher_Hips
+    400006: Gopher_LArm1
+    400008: Gopher_LArm2
+    400010: Gopher_LArmCollarbone
+    400012: Gopher_LArmPalm
+    400014: Gopher_LLeg1
+    400016: Gopher_LLeg2
+    400018: Gopher_LLegAnkle
+    400020: Gopher_RArm1
+    400022: Gopher_RArm2
+    400024: Gopher_RArmCollarbone
+    400026: Gopher_RArmPalm
+    400028: Gopher_RLeg1
+    400030: Gopher_RLeg2
+    400032: Gopher_RLegAnkle
+    400034: Gopher_Spine
+    400036: Gopher_Spine 1
+    400038: Gopher_Tail1
+    400040: //RootNode
+    400042: Mesh_Gopher
+    4300000: Mesh_Gopher
+    9500000: //RootNode
+    13700000: Mesh_Gopher
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

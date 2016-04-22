@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<RootNamespace></RootNamespace>
+	<ProjectGuid>{4EE13CEE-BF95-EC8B-53D8-9B9BC8175384}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_2_2;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AdvancedPlayerPrefsWindow\Editor\APPWindow.cs" />
+     <Compile Include="Assets\AdvancedPlayerPrefsWindow\Editor\Plist.cs" />
+     <Compile Include="Assets\Chartboost\Editor\CBCleanup.cs" />
+     <Compile Include="Assets\Chartboost\Editor\CBManifestEditor.cs" />
+     <Compile Include="Assets\Chartboost\Editor\CBPostProcess.cs" />
+     <Compile Include="Assets\Chartboost\Editor\CBSettingEditor.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\PBXBuildFile.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\PBXBuildPhase.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\PBXDictionary.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\PBXFileReference.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\PBXGroup.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\PBXList.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\PBXObject.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\PBXParser.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\PBXProject.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\XCBuildConfiguration.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\XCConfigurationList.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\XCFileOperationQueue.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\XCMod.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\XCProject.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\XCSourceFile.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\XCTarget.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\XCodeEditorMenu.cs" />
+     <Compile Include="Assets\Chartboost\Editor\XCodeEditor\XMiniJSON.cs" />
+     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\Editor\Heyzap\HZAndroidSetupUI.cs" />
+     <Compile Include="Assets\Editor\Heyzap\HeyzapPostBuild.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\AntialiasingEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\BloomEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\SunShaftsEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\TonemappingEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+     <Compile Include="Assets\Editor\unibill\src\AmazonJSONGenerator.cs" />
+     <Compile Include="Assets\Editor\unibill\src\AndroidManifestGenerator.cs" />
+     <Compile Include="Assets\Editor\unibill\src\AndroidManifestMerger.cs" />
+     <Compile Include="Assets\Editor\unibill\src\GooglePlayCSVGenerator.cs" />
+     <Compile Include="Assets\Editor\unibill\src\IEditorUtil.cs" />
+     <Compile Include="Assets\Editor\unibill\src\Injector.cs" />
+     <Compile Include="Assets\Editor\unibill\src\InventoryEditor.cs" />
+     <Compile Include="Assets\Editor\unibill\src\InventoryPostProcessor.cs" />
+     <Compile Include="Assets\Editor\unibill\src\PBXModifier.cs" />
+     <Compile Include="Assets\Editor\unibill\src\PostbuildProcessor.cs" />
+     <Compile Include="Assets\Editor\unibill\src\StorekitMassImportTemplateGenerator.cs" />
+     <Compile Include="Assets\Editor\unibill\src\UnibillCurrencyEditor.cs" />
+     <Compile Include="Assets\Editor\unibill\src\UnityEditorUtil.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\CocoaPodHelper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSAndroidSetupUI.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSDependencies.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSDocsUI.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSIOSSetupUI.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSInstructionWindow.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSPostBuild.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSProjectSettings.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSStrings.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSUpgrader.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSUtil.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\NearbyConnectionUI.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\PlistBuddyHelper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Elements.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Lexer.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Objects.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\PBXProject.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Parser.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Sections.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Serializer.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Utils.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\FXMakerTextureConvertWindow.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\FXMakerEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\FXMakerOptionEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\FXMakerUndoManager.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\FxmTestSettingEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcAddForceEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcAttachPrefabEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcAttachSoundEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcAutoDestructEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcBillboardEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcCurveAnimationEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcDelayActiveEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcDetachParentEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcDuplicatorEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcParticleSpiralEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcParticleSystemEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcRotationEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcSpriteAnimationEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcSpriteFactoryEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcSpriteTextureEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcTilingTextureEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcTrailTextureEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\Inspector\NcUvAnimationEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\sample\FXMakerGizmoEditor.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\sample\FxmDrawGizmo.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\sample\NcCurveAnimationEditorWindow.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\sample\NcEditorWindow.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Editor\sample\NcParticleSystemShurikenEditor.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Editor\InvDatabaseInspector.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Editor\InvFindItem.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\ActiveAnimationEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\BMFontReader.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\ComponentSelector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\EventDelegateDrawer.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\EventDelegateEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\FreeType.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIContextMenu.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIEditorExtensions.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIEditorTools.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIHandles.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIHelp.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIJson.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIMenu.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUISelectionTools.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUISettings.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUISnap.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUITransformInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\PropertyBindingEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\PropertyReferenceDrawer.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\SpriteSelector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenAlphaEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenColorEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenFOVEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenHeightEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenOrthoSizeEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenPositionEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenRotationEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenScaleEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenTransformEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenVolumeEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenWidthEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TypewriterEffectEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UI2DSpriteEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIAnchorEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIAtlasInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIBasicSpriteEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonColorEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonKeysEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonMessageEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UICameraEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UICameraTool.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIColorPickerEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UICreateNewUIWizard.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UICreateWidgetWizard.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIDragObjectEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIDrawCallInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIEventTriggerEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIFontInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIFontMaker.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIForwardEventsEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIGridEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIImageButtonInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIInputEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIKeyNavigationEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UILabelInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UILocalizeEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIPanelInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIPanelTool.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIPlayAnimationEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIPlayTweenEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIPopupListInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIPrefabTool.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIProgressBarEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIRectEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIRootEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIScrollBarEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIScrollViewEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UISliderEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UISnapshotPointEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UISpriteInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIStretchEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UITableEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UITextureInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UITexturePacker.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIToggleInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UITweenerEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIWrapContentEditor.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\DefaultResolver.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\IResolver.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\PlayServicesResolver.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\ResolverVer1_1.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\SampleDependencies.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\SettingsDialog.cs" />
+     <None Include="Assets\Plugins\Android\res\values-kk\strings.xml" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Plugins\Android\res\values-es-rPA\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\NGUI\ReadMe - 3.9.1.txt" />
+     <None Include="Assets\GooglePlayGames\Editor\Podfile.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Plugins\Android\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-hi\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ru\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Plugins\Android\res\values-fa\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-az\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
+     <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\Plugins\Android\res\values-cs\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Plugins\Android\res\values-sk\strings.xml" />
+     <None Include="Assets\Plugins\unibill\resources\amazon.sdktester.json.txt" />
+     <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\Plugins\Android\res\values-te\strings.xml" />
+     <None Include="Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ar\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Plugins\Android\res\values-es-rAR\strings.xml" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Plugins\Android\res\values-hu\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\Plugins\Android\res\values-ko\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-pt-rBR\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Plugins\Android\res\values-sv\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\Plugins\Android\res\values-es-rNI\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-bg\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es-rCL\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es-rPR\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Plugins\Android\res\values-es-rDO\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-is\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es-rUS\strings.xml" />
+     <None Include="Assets\GooglePlayGames\Editor\template-GameInfo.txt" />
+     <None Include="Assets\Plugins\Android\res\values-el\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Plugins\Android\res\values-zh-rSG\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ur\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\Plugins\Android\res\values-lt\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-fr-rCA\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-et\strings.xml" />
+     <None Include="Assets\GooglePlayGames\Editor\template-AndroidManifest.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Plugins\Android\res\values-he\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-da\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-vi\strings.xml" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Plugins\unibill\resources\unibillStrings.json.txt" />
+     <None Include="Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Plugins\Android\res\values-tr\strings.xml" />
+     <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+     <None Include="Assets\Plugins\Android\res\values-bn\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es-rPY\strings.xml" />
+     <None Include="Assets\Plugins\unibill\Readme.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+     <None Include="Assets\Plugins\Android\res\values-mk\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\progress_dialog.xml" />
+     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\Plugins\Android\res\values-gu\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-en-rGB\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\Plugins\Android\res\values-fi\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es-rGT\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+     <None Include="Assets\Plugins\Android\res\values-es-rVE\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Plugins\Android\res\values-hy\strings.xml" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\Scripts\3D Text Shader.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+     <None Include="Assets\Plugins\Android\Heyzap\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\unibill\generated\googleplay\MassImportCSV.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Plugins\Android\res\values-uk\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ta\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-nl\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Plugins\Android\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values\dimen.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ro\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es-rHT\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+     <None Include="Assets\Plugins\Android\res\values-lv\strings.xml" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ig\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-fr\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Plugins\Android\res\values-nb\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ca\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Plugins\Android\res\values-de\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\Plugins\Android\res\values-es-rBO\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es-rCO\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ja\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Plugins\Android\res\values-gl\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Plugins\Android\res\values-zh-rHK\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-eu\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Plugins\unibill\static\Manifest.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es-rSV\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ka\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-kn\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es-rPE\strings.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest - Copy.xml" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Plugins\unibill\generated\storekit\AppleAppStore.MassImportTemplate.txt" />
+     <None Include="Assets\Plugins\Android\res\values-es-rGY\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Plugins\Android\MainLibProj\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\res\values-zh\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-en-rPH\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-pt\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+     <None Include="Assets\Plugins\Android\res\values-es-rUY\strings.xml" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+     <None Include="Assets\Plugins\Android\res\values-in\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\progressbar_middle.xml" />
+     <None Include="Assets\Plugins\Android\res\values-en-rUS\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es-rCR\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\GooglePlayGames\Editor\template-Constants.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Plugins\Android\res\values-es-rEC\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ml\strings.xml" />
+     <None Include="Assets\Plugins\unibill\Changelog.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Plugins\Android\res\values-yo\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-id\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-pa\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Plugins\Android\res\values-pl\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Plugins\unibill\resources\unibillInventory.json.txt" />
+     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked.shader" />
+     <None Include="Assets\Plugins\Android\res\values-it\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ms\strings.xml" />
+     <None Include="Assets\Plugins\unibill\generated\storekit\MacAppStore.MassImportTemplate.txt" />
+     <None Include="Assets\Plugins\Android\res\values-en\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Plugins\Android\res\values-es-rCU\strings.xml" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Plugins\Android\res\values-th\strings.xml" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ga\strings.xml" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Scenes\3D Text Shader.shader" />
+     <None Include="Assets\Plugins\Android\res\values-sl\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-zh-rTW\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ha\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\NGUI\Examples\Resources\Localization.txt" />
+     <None Include="Assets\Plugins\Android\res\values-es-rMX\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-sr\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es-rHN\strings.xml" />
+     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Plugins\Android\res\values-hr\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-mr\strings.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>D:/SVN-Nutty/Services/Fungo Golf/Assets/Editor/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="JarResolverLib">
+ <HintPath>D:/SVN-Nutty/Services/Fungo Golf/Assets/PlayServicesResolver/Editor/JarResolverLib.dll</HintPath>
+ </Reference>
+ <Reference Include="P31RestKit">
+ <HintPath>D:/SVN-Nutty/Services/Fungo Golf/Assets/Plugins/P31RestKit.dll</HintPath>
+ </Reference>
+ <Reference Include="unibill">
+ <HintPath>D:/SVN-Nutty/Services/Fungo Golf/Assets/Plugins/unibill.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/androidplayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/wp8support/UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/metrosupport/UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/webglsupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/linuxstandalonesupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D229D81E-0993-6355-4DDB-565886F06B05}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{702AED5F-BA39-AFC6-4DEF-8A40854ED4C3}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{A4294AD2-5957-B70A-DA7E-84048932BD66}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-Editor-firstpass.unityproj">
+      <Project>{639DD225-8D7A-6241-38B9-8A8B43812F4D}</Project>      <Name>Assembly-UnityScript-Editor-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
